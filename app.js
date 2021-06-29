@@ -234,9 +234,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }, ghost.speed);
     }
 
-    //chequeo de juego perdido
+    //funcion de chequeo de juego perdido
 
     function checkForGameOver() {
+        
+        //se declara que 'si pac-man "contiene" o "pasa" por un fantasma ("ghost") que no sea fantasma espantado ("scared-ghost") 
+        // entonces se desplegara en el display del "score" un anuncio de que se perdio "GAME OVER!" y se para la funcion de movimientode "pac-man"
+        // y se cambia el color del texto'
         if (
             squares[pacmanCurrentIndex].classList.contains('ghost') &&
             !squares[pacmanCurrentIndex].classList.contains('scared-ghost')
@@ -250,8 +254,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    //check for a win - more is when this score is reached
+    //funcion de cheque de juego ganado
     function checkForWin() {
+        //se declara que al llegar a 274 puntos desplegados en el "display score" se manda un mensaje a tal diciendo que se gano el juego "YOU WIN!!"
+        // y se para la funcion de movimientode "pac-man" y se cambia el color del texto'
         if (score === 274) {
             ghosts.forEach((ghost) => clearInterval(ghost.timerId));
             document.removeEventListener('keyup', movePacman);
