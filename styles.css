@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid white;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: aqua;
+    border: 8px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.wall {
+    background-color: grey;
+    border-style: groove;
+    box-sizing: border-box;
+}
+.power-pellet {
+    background-color: deeppink;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.reddy {
+    background-color: red;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+
+    border-top-right-radius: 10px;
+}
+
+.orangy {
+    background-color: coral;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+
+    border-top-right-radius: 10px;
+}
+
+.greeny {
+    background-color: blueviolet;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+
+    border-top-right-radius: 10px;
+}
+
+.bluy {
+    background-color: aqua;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+
+    border-top-right-radius: 10px;
+}
+
+.pac-man {
+    background-color: yellow;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+
+    border-top-right-radius: 10px;
+}
+.box-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+
+    border: solid white;
+    width: 560px;
+    height: 100px;
+}
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+    background-color: black;
+
+    border: solid white;
+    font-family: monospace;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+#score {
+    margin-left: 50px;
+    color: yellow;
+}
