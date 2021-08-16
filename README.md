@@ -20,6 +20,6 @@ This is a simple Pac-Man game, use the keyboard arrows to play.
 <hr>
 <div align="center">
 
-![Logo](https://i.ibb.co/yW1Rxb6/JOHN-K-LOGO.png)</sup>
+![Logo](https://i.ibb.co/yW1Rxb6/JOHN-K-LOGO.png)
   
   </div>
