@@ -18,14 +18,9 @@ This is a simple Pac-Man game, use the keyboard arrows to play.
 - JavaScript (Vanilla)
 
 <hr>
-<div align="left">
+<div align="right">
 
 ![Logo](https://i.ibb.co/Wv7LV2Q/JOHN-K-LOGO-NEGATIVO.png)
   
   </div>
   
-<div align="right">
-
-![Logo](https://i.ibb.co/yW1Rxb6/JOHN-K-LOGO-NEGATIVO.png)
-  
-  </div>
