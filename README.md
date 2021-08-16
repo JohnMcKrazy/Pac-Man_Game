@@ -15,7 +15,7 @@ This is a simple Pac-Man game, use the keyboard arrows to play.
 ## Tecnologies ##
 - HTML
 - CSS
-- Vanilla JavaScript
+- JavaScript (Vanilla)
 
 <hr>
 <div align="center">
